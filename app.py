@@ -4,7 +4,7 @@ import os
 from utils.read_pdf import read_pdf
 
 genai.configure(api_key=st.secrets.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel("models/gemini-2.5-pro")
+model = genai.GenerativeModel("models/gemini-2.5-flash-lite")
 
 st.set_page_config(
     page_title="Smart Notes Summarizer",
